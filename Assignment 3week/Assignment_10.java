@@ -10,7 +10,7 @@ public class Assignment_10 {
 
 		int year = input.nextInt();
 		
-		if(year % 400 == 0 || year % 4 == 0 && year % 100 != 0) { System.out.println("leap year");}
+		if(year % 400 == 0 || (year % 4 == 0 && year % 100 != 0)) { System.out.println("leap year");}
 		else {System.out.println("common year");
 		
 		
